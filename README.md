@@ -6,7 +6,7 @@ library:
   sudo apt-get install liballegro4-dev
 
 compilation:
-  gcc main.c -o wy $(allegro-config --libs)
+  gcc main.c -o tank $(allegro-config --libs)
 
 gameplay:
   moving: arrow keys
